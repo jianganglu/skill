@@ -1,0 +1,9 @@
+﻿/* 这是新的「核心」文件。我们将把它编译成CSS。与原始的 LESS文件一样，它使用下面的命令来引入上面那两个自定义文件（记住要保证文件正确的引用顺序） */
+
+@import 
+  "../../../vendor/bootstrap/stylesheets/bootstrap"
+, "helpers/custom-bootstrap/custom-variables"
+, "helpers/custom-bootstrap/custom-other"
+, "../../../vendor/bootstrap/stylesheets/utilities"
+, "../../../vendor/bootstrap/stylesheets/responsive-utilities"
+;
